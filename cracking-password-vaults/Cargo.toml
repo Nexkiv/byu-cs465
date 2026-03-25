@@ -1,0 +1,11 @@
+[package]
+name = "cracking-password-vaults"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes-gcm = "0.10.3"
+base16ct = "0.3"
+hex-literal = "1.1.0"
+pbkdf2 = "0.12"
+sha2 = "0.10.9"
