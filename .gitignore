@@ -1,1 +1,14 @@
 .DS_Store
+
+# Rust build artifacts
+**/target/
+
+# IDE settings
+**/.vscode/
+
+# Project-specific solution files
+cracking-password-vaults/breach/breach_solutions.txt
+cracking-password-vaults/practice/practice_solutions.txt
+
+# Rustlings personal progress tracker
+rustlings/.rustlings-state.txt
