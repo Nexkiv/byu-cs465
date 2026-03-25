@@ -1,0 +1,25 @@
+{
+    "name": "Rust installed using x86-only libraries",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": [
+        "-v",
+        "${localWorkspaceFolder}:/workspace:cached"
+    ],
+    "remoteUser": "root",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "[rust]": {
+                    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+                    "editor.formatOnSave": true,
+                    "editor.formatOnSaveMode": "file"
+                }
+            },
+            "extensions": [
+                "rust-lang.rust-analyzer"
+            ]
+        }
+    }
+}
